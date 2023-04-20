@@ -1,33 +1,75 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
 }
-.navigation{
-    background-color: black;
-    padding: 20px;
+.navigation {
+  background-color: black;
+  padding: 20px;
 }
-.showcase{
-    color: white;
-    background-image: url("dark-car.jpg") ;
-    height:400px;
+.showcase {
+  color: white;
+  height: 400px;
+  background-image: url("dark-car.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.dark-para {
+  margin-top: 40px;
+  background-color: rgba(2, 0, 0, 0.647);
+}
+
+.white-btn {
+  margin-top: 40px;
+  padding: 8px 60px 8px 60px;
+  background-color: white;
+  border: 0px;
+}
+
+.about-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about-para {
+  margin-top: 50px;
+}
+
+.card-section {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+}
+.card {
+  width: 33.333%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.card-btn {
+  border: 0px;
+  background-color: white;
+  padding: 5px 20px 5px 20px;
+}
+
+.last-section{
+
+    background-image: url("porshe.jpg");
+    height: 400px;
     background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
-    padding-top: 20px;
-}
-a{
+    padding-top: 100px;
     color: white;
-    text-decoration: none;
-    padding: 20px;
 }
-
-.dark-para{
-    margin-top: 40px;
-    background-color: rgba(0, 0, 0, 0.293);
+h2{
+    text-align: center;
 }
-
-.white-btn{
-    margin-top: 40px;
-    padding: 10px 40px 10px 40px;
-}
-
-
